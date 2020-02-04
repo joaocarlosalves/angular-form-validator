@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.invalid-feedback {
+    padding-left: 20px;
+}
+
+.btn-enviar {
+    margin-left: 30px;
+    width: 150px;
+    height: 50px;
+}
+
+.container {
+    border: 1px solid #cbcbcb;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.error-msg {
+    color: red;
+}
+
+.show-error-msg {
+    display: block;
+}
+
+.form-group {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    
+    input {
+        border: 1px solid gray;
+        height: 45px;
+        width: 30%;
+        font-size: 15px;
+    };
+}
